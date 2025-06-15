@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TIC TAC TOE</title>
+  <link rel="icon" href="C:\Users\LENOVO\OneDrive\Desktop\Prodigy Infotech\Task 3\images\tictactoe.jpeg">
+  <link rel="stylesheet" href="mode.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+  <h2>Select Game Mode</h2>
+  <div class="mode-container">
+    <button onclick="startGame('pvp')">Player vs Player</button>
+    <button onclick="startGame('ai')">Player vs AI</button>
+  </div>
+
+  <script>
+    function startGame(mode) {
+      window.location.href = `tic.html?mode=${mode}`;
+    }
+  </script>
+</body>
+</html>
