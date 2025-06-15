@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+  padding: 40px;
+  color: white;
+  
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.mode-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.mode-container button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color:#00b894;
+  color: white;
+  transition: 0.2s;
+}
+
+.mode-container button:hover {
+  background-color: #0b7b67;
+}
